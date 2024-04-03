@@ -14,7 +14,7 @@ def find_min_max(sequence):
     
     return min_val, max_val
 
-# Example usage:
+# usage:
 sequence = [3, 7, 2, 8, 5, 9, 1, 4, 6]
 min_val, max_val = find_min_max(sequence)
 print("Minimum value:", min_val)
