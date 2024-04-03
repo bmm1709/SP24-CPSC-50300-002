@@ -8,6 +8,6 @@ def find(path, filename):
     elif os.path.isdir(full_path):
       # Recursively search within subdirectories
       find(full_path, filename)
-root_path = "/home/user/data"
+root_path = "/Users/bhaveenmacstudio/Documents/Lewis University/Algorithms and Data Structures/Week2"
 target_filename = "report.txt"
 find(root_path, target_filename)
