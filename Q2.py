@@ -1,5 +1,5 @@
 def is_palindrome(numbers_list):
-    # Initialize pointers for the start and end of the list
+    # Initialize
     start = 0
     end = len(numbers_list) - 1
     
