@@ -3,9 +3,8 @@ def is_sum_equal(L, total):
  running_sum = 0
  
  # Iterate through the list
- for num in L:
- # Add the current number to the running sum
- running_sum += num
+for num in L:
+running_sum += num
  
  # If the running sum equals the total, return True
  if running_sum == total:
