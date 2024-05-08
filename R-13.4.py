@@ -11,8 +11,8 @@ def boyer_moore(text, pattern):
         last = compute_last_occurrence(pattern)
         
         # Begin the search
-        i = m - 1  # Index in text
-        j = m - 1  # Index in pattern
+        i = m - 1  
+        j = m - 1  
         
         while i < n:
             if text[i] == pattern[j]:
